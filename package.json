@@ -1,0 +1,36 @@
+{
+  "name": "replace-hash",
+  "version": "1.0.0",
+  "description": "put path into the hash to ease the transition from browserHistory to hashHistory",
+  "main": "./distribution/index.js",
+  "devDependencies": {
+    "babel-cli": "6.22.2",
+    "babel-preset-es2015": "6.22.0",
+    "npm-release": "1.0.0"
+  },
+  "dependencies": {
+    "underscore": "1.8.3"
+  },
+  "scripts": {
+    "build": "babel source --presets babel-preset-es2015 --out-dir distribution",
+    "prepublish": "npm run build",
+    "patch": "npm-release patch",
+    "minor": "npm-release minor",
+    "major": "npm-release major"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/FastModelSports/replace-hash.git"
+  },
+  "keywords": [
+    "url",
+    "params",
+    "data"
+  ],
+  "author": "Zach Pflederer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FastModelSports/replace-hash/issues"
+  },
+  "homepage": "https://github.com/FastModelSports/replace-hash#readme"
+}
