@@ -1,6 +1,6 @@
 {
   "name": "replace-hash",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "put path into the hash to ease the transition from browserHistory to hashHistory",
   "main": "./distribution/index.js",
   "devDependencies": {
